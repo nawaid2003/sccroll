@@ -1,0 +1,13 @@
+body {
+    background-color: #0E141F;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    width: 100%;
+  }
+  

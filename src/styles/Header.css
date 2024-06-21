@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 6em auto;
+    text-align: center;
+  }
+  
+  .title,
+  .subtitle {
+    color: #FFFFFF;
+  }
+  
+  .title {
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .subtitle {
+    margin: 0 0 2em;
+    font-weight: 300;
+  }
+  

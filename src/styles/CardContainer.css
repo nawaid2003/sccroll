@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1em;
+    justify-content: space-between; /* Added to ensure space between items */
+  }
+  
+  .card {
+    flex: 1 0 calc(50% - 1em); /* Updated to take 50% of the width minus margin */
+    margin: 1em 0; /* Added vertical margin for spacing between cards */
+  }
+  
+  .card-box {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 150px; /* Adjust the height as needed */
+  }
+  
+  .card-image {
+    height: 100%; /* Make the image take the full height of the card */
+    width: 100%;
+  }
+  
+  .card:nth-of-type(5n+1) .card-image {
+    background-color: #E31D65;
+  }
+  .card:nth-of-type(5n+2) .card-image {
+    background-color: #FF7C35;
+  }
+  .card:nth-of-type(5n+3) .card-image {
+    background-color: #FFCB36;
+  }
+  .card:nth-of-type(5n+4) .card-image {
+    background-color: #25A954;
+  }
+  .card:nth-of-type(5n+5) .card-image {
+    background-color: #007D97;
+  }
+  
